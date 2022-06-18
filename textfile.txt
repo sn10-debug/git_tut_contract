@@ -1,0 +1,15 @@
+This is Shakti Santosh Nayak
+This is the git supported project
+.git is the hidden folder and this stores the history of all the changes and new things added to the project. ‘.’ Represents that it is a hidden folder
+
+Git status tells that this are the things which are currently present but it is not present in the history of the project
+
+Git restore –staged filename is used to remove a file from the staging area
+In staging area the changes are stored in the history but in the commit the changes are saved with the timestamp
+
+If we want to delete a commit number 2 in the sequence then just write git restore hash address of the commit under commit number 2 but be aware that all the commits above commit 2 will be deleted.(Including Commit number 2)
+
+
+If we have added something to the staging but we don’t want to make it’s commit then we simply stash it that is write the command git stash and if we again want to get that changes in the staging section then we simply write git stash pop 
+
+

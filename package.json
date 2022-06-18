@@ -1,0 +1,21 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "This is a smart contract for inbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Shakti Santosh Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.41-1",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.4.17",
+    "web3": "^1.7.3"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

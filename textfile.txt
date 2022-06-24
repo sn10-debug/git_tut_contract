@@ -12,4 +12,22 @@ If we want to delete a commit number 2 in the sequence then just write git resto
 
 If we have added something to the staging but we don’t want to make it’s commit then we simply stash it that is write the command git stash and if we again want to get that changes in the staging section then we simply write git stash pop 
 
+To clear the stash that is putting the stagged files separately can be done using the command 'git stash clear'
 
+git remote add origin https://github.com/sn10-debug/Inbox-contract.git
+
+This above command is to add the url
+Remote means something with respect to url and add means adding something and origin is the name of the url
+Usually we give name 'origin' to our personal urls 
+
+
+git push origin <branch name>
+
+This command will add the particular branch to the origin
+
+
+Fork in github means that particular code which we cannot make changes direclty can be added to our Directory so that we can make changes
+
+git clone <file link>
+
+This will create the clone of the file in local machine

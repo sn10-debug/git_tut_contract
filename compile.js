@@ -12,6 +12,8 @@ let compiled_obj=solidity_compiler.compile(source,2)
 
 
 console.log("This is the Byte code of Inbox Contract \n\n")
+
+console.log("Hello world")
 console.log(compiled_obj.contracts[':Inbox'].bytecode)
 
 // Here we have colon in front of Contract name and the logic behind them is when we compile multiple files then before the colon the filename will be mentioned
